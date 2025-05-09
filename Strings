@@ -1,0 +1,17 @@
+String Builder
+
+class Strings {
+
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("Tonny");
+        System.err.println(sb);
+
+        sb.insert(2, 'n');
+        System.err.println(sb);
+
+        sb.delete(2, 3);
+        System.err.println(sb);
+
+    }
+}
+
